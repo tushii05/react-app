@@ -18,7 +18,7 @@ export const SeriesCard = ({ data }) => {
             </div>
             <div className='card-content'>
                 <h2>Name: {name}</h2>
-                <h3>Rating: {rating}</h3>
+                <h3> Rating: <spam className={rating >= 8.5 ? "super_hit" : "average"}> {rating}</spam></h3>
                 <p>{description}</p>
                 <p>Genre: {genre}</p>
                 <a href={watch_url} target="_blank" rel="noopener noreferrer">

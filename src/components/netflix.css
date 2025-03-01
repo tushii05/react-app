@@ -3,11 +3,11 @@
         rgba(0, 0, 0, 0.08) 0px 0px 1px 1px;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.card-content{
+.card-content {
     padding: 3.2rem 1.2rem;
     display: flex;
     flex-direction: column;
@@ -16,4 +16,12 @@ img{
 
 .card-heading {
     margin-bottom: 5.2rem;
+}
+
+.super_hit {
+    background-color: #7dcea0;
+}
+
+.average {
+    background-color: #f7dc6f;
 }
