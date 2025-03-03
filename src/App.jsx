@@ -5,7 +5,8 @@ import NetflixApp from './components/Netflix';
 import "./components/netflix.css"
 import { Todo } from './projects/Todo/Todo';
 import { ToggleSwitch } from './projects/toggleSwitch/ToggleEwitch';
-
+import{Counter } from '../src/components/hooks/useState/index'
+import {CounterChallenges} from './components/hooks/useState/challanges'
 export const App = () => {
   return (
     <section >
@@ -17,7 +18,10 @@ export const App = () => {
       {/* <EventProps /> */}
       {/* <States /> */}
       {/* <ToggleSwitch/> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <Counter/> */}
+      <CounterChallenges/>
+
     </section>
   )
 }
