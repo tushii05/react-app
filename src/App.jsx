@@ -3,11 +3,12 @@ import { EventProps } from './components/EventProps';
 import { States } from './components/hooks/State';
 import NetflixApp from './components/Netflix';
 import "./components/netflix.css"
+import { Todo } from './projects/Todo/Todo';
 import { ToggleSwitch } from './projects/toggleSwitch/ToggleEwitch';
 
 export const App = () => {
   return (
-    <section className='container'>
+    <section >
       {/* <h1 className='card-heading'>
         List Of Best Netflix Series
       </h1>
@@ -15,7 +16,8 @@ export const App = () => {
       {/* <EventHandling /> */}
       {/* <EventProps /> */}
       {/* <States /> */}
-      <ToggleSwitch/>
+      {/* <ToggleSwitch/> */}
+      <Todo />
     </section>
   )
 }
