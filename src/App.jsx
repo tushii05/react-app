@@ -5,8 +5,11 @@ import NetflixApp from './components/Netflix';
 import "./components/netflix.css"
 import { Todo } from './projects/Todo/Todo';
 import { ToggleSwitch } from './projects/toggleSwitch/ToggleEwitch';
-import{Counter } from '../src/components/hooks/useState/index'
-import {CounterChallenges} from './components/hooks/useState/challanges'
+import { Counter } from '../src/components/hooks/useState/index'
+import { CounterChallenges } from './components/hooks/useState/challanges'
+import { Registration } from './components/hooks/useState/Registration';
+import { LoginForm } from './components/hooks/useState/LoginForm';
+import { ContactUs } from './components/hooks/useState/Contact';
 export const App = () => {
   return (
     <section >
@@ -20,8 +23,12 @@ export const App = () => {
       {/* <ToggleSwitch/> */}
       {/* <Todo /> */}
       {/* <Counter/> */}
-      <CounterChallenges/>
+      {/* <CounterChallenges/> */}
+      {/* <Registration/> */}
 
+      {/* <LoginForm/> */}
+
+      <ContactUs />
     </section>
   )
 }

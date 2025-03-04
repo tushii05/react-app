@@ -1,0 +1,70 @@
+/* Centering the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Form styling */
+.form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* You can adjust the width here */
+    display: flex;
+    flex-direction: column; /* Ensure elements are stacked vertically */
+    gap: 15px; /* Adds space between form fields */
+}
+
+/* Title styling */
+.form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Label styling */
+.form label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Input fields styling */
+.form input {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styling */
+.form button {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect for button */
+.form button:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design (to ensure good looks on mobile) */
+@media (max-width: 600px) {
+    .form {
+        width: 100%; /* Full width for smaller screens */
+        padding: 1rem; /* Less padding on small screens */
+    }
+}

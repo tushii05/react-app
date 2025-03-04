@@ -1,0 +1,76 @@
+.counter-card {
+    width: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.counter-card h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.counter-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.counter-card input {
+    width: 80px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.counter-card input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.counter-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.counter-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.counter-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.increment-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.decrement-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.counter-buttons button:hover:not(:disabled) {
+    opacity: 0.8;
+}
