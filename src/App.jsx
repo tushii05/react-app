@@ -11,8 +11,9 @@ import { Registration } from './components/hooks/useState/Registration';
 import { LoginForm } from './components/hooks/useState/LoginForm';
 import { ContactUs } from './components/hooks/useState/Contact';
 import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotFetchApi';
-import {Pokemon } from './projects/pokemon/Pokemon'
-import {UseRef} from './components/hooks/useRefs/index'
+import { Pokemon } from './projects/pokemon/Pokemon'
+import { UseRef } from './components/hooks/useRefs/index'
+import { ParentComponent } from './components/PropDrilling';
 export const App = () => {
   return (
     <section >
@@ -34,7 +35,8 @@ export const App = () => {
       {/* <ContactUs /> */}
       {/* <HowNotToFetchApi /> */}
       {/* <Pokemon/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <ParentComponent />
     </section>
   )
 }
