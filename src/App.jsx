@@ -10,6 +10,9 @@ import { CounterChallenges } from './components/hooks/useState/challanges'
 import { Registration } from './components/hooks/useState/Registration';
 import { LoginForm } from './components/hooks/useState/LoginForm';
 import { ContactUs } from './components/hooks/useState/Contact';
+import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotFetchApi';
+import {Pokemon } from './projects/pokemon/Pokemon'
+import {UseRef} from './components/hooks/useRefs/index'
 export const App = () => {
   return (
     <section >
@@ -24,11 +27,14 @@ export const App = () => {
       {/* <Todo /> */}
       {/* <Counter/> */}
       {/* <CounterChallenges/> */}
-      {/* <Registration/> */}
+      {/* <RegistrationForm/> */}
 
       {/* <LoginForm/> */}
 
-      <ContactUs />
+      {/* <ContactUs /> */}
+      {/* <HowNotToFetchApi /> */}
+      {/* <Pokemon/> */}
+      <UseRef/>
     </section>
   )
 }
